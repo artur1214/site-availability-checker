@@ -1,4 +1,4 @@
-# Engilsh ReadMe (Russian is bellow):
+# Engilsh ReadMe (Russian is below):
 ## AVASITE
 ### Author:
 [artur1214](https://github.com/artur1214)
@@ -114,7 +114,7 @@ last.fm;80,443
 ##### Использование приложения:
 ```shell
 python avasite.py --skip_invalid
-#Выод:
+#Вывод:
 Check results:
 2023-02-27 17:34:54.184700 | localhost | 127.0.0.1 | 0.106 ms | ??? | Address pingable.
 2023-02-27 17:34:56.188315 | localhost | 127.0.0.1 | 0.074 ms | ??? | Address pingable.
