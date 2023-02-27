@@ -42,8 +42,8 @@ def http_is_opened(host: str, port: int):
     most of HTTP and HTTPS servers will not respond.
     (but will accept connection)
     RTT is calculated like time between first byte sent and first byte received.
-    Note: server it is considered to be alive ONLY if it responds to simple
-    HTTP header. If it's accept socket connection but don't respond anything,
+    Note: server is considered to be alive ONLY if it responds to simple
+    HTTP header. If it accepts socket connection but don't respond anything,
     when server and port considered to closed.
 
     """
