@@ -14,6 +14,7 @@
 ```shell
 pip install -r requirements.txt
 ```
+#### NOTE: python 3.10 is required.
 
 ### usage (may be viewed by `-h` flag providing):
 ```
@@ -81,6 +82,7 @@ In linux might be needed `sudo` to be used with (because we need to create socke
 ```shell
 pip install -r requirements.txt
 ```
+#### ВАЖНО: необходим python 3.10+.
 
 ### usage (можно посмотреть, используя флаг `-h`):
 ```
