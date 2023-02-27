@@ -128,7 +128,6 @@ def check(host: str, ports: list[int], **_) -> \
                 'port': port,
                 'status': 0
             }
-
     for ip_address in ip_addresses:
         if not ports:
             ping_result = icmplib.ping(ip_address, count=3)

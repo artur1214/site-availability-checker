@@ -64,6 +64,8 @@ Check results:
 ### Note:
 In linux might be needed `sudo` to be used with (because we need to create sockets, and on some systems this might require root privileges)
 
+### Future plans:
+- add asynchronous.
 ----------
 
 # Русский
@@ -133,3 +135,5 @@ Check results:
 ### Небольшое уточнение:
 На некоторых машинах с линуксом, может потребовать права `sudo`, потому что без них на некоторых компьютерах нельзя создавать сокеты.
 
+### Планы на будущее:
+- Добавить асинхронность.
