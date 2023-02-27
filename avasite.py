@@ -79,7 +79,7 @@ if __name__ == '__main__':
              '\nCurrently available protocols are: ' +
              ', '.join(data_input.Reader.get_all_protocols()) +
              '\n E.G csv:input.csv or json:files/inp.json '
-             '(DEFAULT: csv::input.csv)'
+             '(DEFAULT: csv:input.csv)'
     )
     arg_parser.add_argument(
         '--inf',

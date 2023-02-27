@@ -26,7 +26,7 @@ options:
   -h, --help            show this help message and exit
   --inp CONNECTION_STRING
                         Input string. looks like "con_type:path." Currently available protocols are: csv, json
-                        E.G csv:input.csv or json:files/inp.json (DEFAULT: csv::input.csv)
+                        E.G csv:input.csv or json:files/inp.json (DEFAULT: csv:input.csv)
   --inf                 Run program infinitely, till someone stop it.
   --period PERIOD       Period of availability check in seconds. Is used only with --inf.
   --skip_invalid        Skip invalid input. If provided, invalid values in input will be ignored
@@ -94,7 +94,7 @@ options:
   -h, --help            show this help message and exit
   --inp CONNECTION_STRING
                         Input string. looks like "con_type:path." Currently available protocols are: csv, json
-                        E.G csv:input.csv or json:files/inp.json (DEFAULT: csv::input.csv)
+                        E.G csv:input.csv or json:files/inp.json (DEFAULT: csv:input.csv)
   --inf                 Run program infinitely, till someone stop it.
   --period PERIOD       Period of availability check in seconds. Is used only with --inf.
   --skip_invalid        Skip invalid input. If provided, invalid values in input will be ignored
