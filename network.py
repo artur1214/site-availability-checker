@@ -78,7 +78,9 @@ def get_ips_from_hostname(hostname: str):
         hostname (str): hostname to check. no protocol needed. e.g. ya.ru
     """
     try:
-        return socket.gethostbyname_ex(hostname)[-1]
+        # in some cases (127.0.0.1 for example) may be returned twice.
+        # fixed it by list/set/list trick
+        return list(set(socket.gethostbyname_ex(hostname)[-1]))
     except socket.gaierror:
         return []
 
