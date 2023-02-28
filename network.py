@@ -114,8 +114,8 @@ def check(host: str, ports: list[int], **_) -> \
         host (str): hostname or ip address to check.
         ports (list[int]): list of ports to check on provided host.
 
-    Returns:
-        Generator[CheckResult, None, None): list of check results for
+    Yields:
+        CheckResult: list of check results for
           all resolved ip/port pairs
 
     """
