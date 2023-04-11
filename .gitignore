@@ -3,3 +3,6 @@ __pycache__
 *.json
 *.csv
 venv
+HELP_TEXT.txt
+ssl_check.patch
+*.zip

@@ -208,8 +208,8 @@ def check(host: str, ports: list[int], **_) -> \
 
 
 if __name__ == '__main__':
-    #print(check_ssl_certificate('77.88.55.242', 443))
+    print(check_ssl_certificate('77.88.55.242', 443))
     pass
     # SOME PREVIOUS TESTS
     # pprint.pprint(check('122.144.111.44', [80]))
-    #print(get_ips_from_hostname('ya.ru'))
+    print(get_ips_from_hostname('ya.ru'))
